@@ -1,0 +1,213 @@
+/********* From big tablets to 1200px (width smaller than the 1140px) *************/
+
+@media only screen and (max-width:1200px){
+  body{
+    font-size: 20px;
+  }
+  .row{
+    max-width: 100%;
+    padding: 0 2%;
+  }
+  .header-text-box{
+    width: 100%;
+    padding: 0 2%;
+  }
+  .btn{
+    font-size: 110%;
+  }
+  .arrow{
+    left: 92%;
+  }
+}
+
+/********* For small tablets to big tablets to 767px to 1023px *************/
+
+@media only screen and (max-width:1023px){
+  body{
+    font-size: 18px;
+  }
+  .features-desc{
+    width:80%;
+    margin: 0 10% 2% 10%;
+  }
+  .features-container h3{
+    font-size: 96%;
+  }
+  .city-details{
+    font-size: 80%;
+  }
+  .contact{
+    width: 80%;
+  }
+  .app-display{
+    margin-bottom: 60px;
+  }
+  .app{
+    width: 100px;
+  }
+  .steps-desc{
+    font-size: 110%;
+  }
+  .arrow{
+    left: 90%;
+  }
+  .rating-addCart{
+    display: flex;
+    flex-direction: column;
+  }
+  .add-cart{
+    width: 100%;
+    margin-top: 4px;
+  }
+  .itemCount{
+    margin-top: -4px;
+  }
+  .modalContent{
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 786px){
+  .food-desc{
+    flex-direction: column;
+  }
+  .food-img{
+    width: 100%;
+  }
+  .food-img img{
+    width: 100%;
+  }
+  .about-food{
+    margin:0;
+    padding:0;
+  }
+}
+/********* For small phones to small tablets 480px to 767px *************/
+
+@media only screen and (max-width:767px){
+  .main-nav{
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+  .mobile-nav-icon{
+    display: block;
+    font-size: 200%;
+  }
+  .nav-element a{
+    border: none;
+    padding-bottom: 10px;
+  }
+  .nav-element a:hover{
+    border:0;
+  }
+  .header-title{
+    font-size: 140%;
+  }
+  .section-title{
+    font-size: 140%;
+  }
+  .app-display,
+  .steps-container{
+    width: 100%;
+  }
+  .app-display{
+    margin-bottom: 60px;
+  }
+  .app{
+    width: 160px;
+  }
+  .box{
+    width: 100%;
+    margin-bottom: 4%;
+  }
+  .box:nth-child(2),
+  .box:nth-child(4){
+    margin-bottom: 0%;
+}
+  .city h4{
+    font-size: 140%;
+  }
+  .city-details{
+    font-size: 105%;
+  }
+  .arrow{
+    left: 86%;
+  }
+  .contact{
+    width: 90%;
+  }
+  .form-text{
+    width: 39%;
+  }
+  .form-element{
+    width: 60%;
+  }
+  textarea,select{
+    margin-top: 4px;
+  }
+  .modalContent{
+    border-radius: 4px;
+  }
+  .modal1-img,
+  .modal2-img{
+    display: none;
+  }
+  .modal1-form,
+  .modal2-form{
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width:675px){
+  .modalContent{
+    width: 500px;
+  }
+  }
+@media only screen and (max-width:575px){
+  .modalContent{
+    width: 400px;
+  }
+  }
+/********* For small phones 0px to 500px *************/
+
+@media only screen and (max-width:500px){
+  section{
+    padding: 60px 0 20px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .header-title{
+    font-size: 90%;
+  }
+  .desc{
+    font-size: 80%;
+  }
+  .features-container,
+  .city-desc{
+    width: 100%;
+  }
+  .app-display,
+  .steps-container{
+    width: 100%;
+  }
+  .app{
+    width: 120px;
+  }
+  .happy-customers{
+    width: 100%;
+  }
+  .form-text,
+  .form-element{
+    width: 100%;
+  }
+  .arrow{
+    left: 80%;
+  }
+}
+@media only screen and (max-width:475px){
+  .modalContent{
+    width: 300px;
+  }
+  }
